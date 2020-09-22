@@ -1,0 +1,13 @@
+frmMain = 0, 0, 998, 899, , 0, 0, 998, 899, C
+frmOptions = 0, 0, 998, 899, , 0, 0, 998, 899, C
+modMain = 0, 0, 998, 899, 
+modCrypt = 0, 0, 998, 899, 
+frmUserConfig = 0, 0, 998, 899, C, 138, 120, 850, 733, C
+frmDummy = 110, 110, 822, 723, C, 88, 88, 800, 701, C
+modUser = 0, 0, 998, 899, 
+frmRctl = 0, 0, 998, 899, , 0, 0, 998, 899, C
+modConfig = 0, 0, 998, 899, 
+modSettings = 0, 0, 712, 613, C
+modParsing = 0, 0, 998, 899, 
+modWindows = 0, 0, 998, 899, 
+modTray = 176, 176, 888, 789, C

@@ -1,0 +1,39 @@
+The aircrctl connection protocol
+-----------------------------------------
+
+-----------------------------------------
+  SERVER sets up a listening port
+  CLIENT connects to port
+-----------------------------------------
+If CLIENT's IP is either
+  A) Not in the ENABLED granted list, or
+  B) In the ENABLED denied list
+the connection is refused.
+-----------------------------------------
+  SERVER requests version number
+  CLIENT sends version number
+-----------------------------------------
+If CLIENT's version number differs from
+SERVER's version number, an error message
+is sent to the client and the connection
+is closed.
+-----------------------------------------
+  SERVER requests user name
+  CLIENT sends user name
+-----------------------------------------
+If CLIENT's user name is not in the
+SERVER's user name list, an error message
+is sent to the client and the connection
+is closed.
+-----------------------------------------
+  SERVER requests encrypted password
+  CLIENT sends encrypted password
+-----------------------------------------
+If CLIENT's password differs from the one
+in SERVER's password list, an error
+message is sent to the client and the
+connection is closed.
+-----------------------------------------
+  SERVER sends information
+-----------------------------------------
+The connection is now open.

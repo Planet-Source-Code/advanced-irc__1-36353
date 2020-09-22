@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=airc.vbp
+Project=!airc_activex_sdk\airc_sdk.vbp
