@@ -1,0 +1,16 @@
+; Advanced IRC RCTL configuration file
+; Created automatically by aircrctl.exe
+; Comments start with ';' or '#'
+
+; IP access
+grantip_enable 0
+denyip_enable 0
+
+; Server control
+listen_port 3004
+keep_connected 0
+
+; User list
+user slicer/0//›‹óñcbﬁ›‡ﬂZY/5/ 3 
+
+; End of configuration file
